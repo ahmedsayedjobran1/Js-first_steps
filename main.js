@@ -1,3 +1,5 @@
-const a = parseInt("00007");
+function convertToInteger(str) {
+    return parseInt(str, 2)
+}
 
-console.log(a);
+console.log(convertToInteger("10011"));
