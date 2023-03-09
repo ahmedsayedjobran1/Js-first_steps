@@ -1,5 +1,11 @@
-function convertToInteger(str) {
-    return parseInt(str, 2)
+// Only change code below this line
+function countdown(n) {
+    if (n < 1) {
+        return [];
+    } else {
+        const arr = countdown(n - 1);
+        arr.unshift(n);
+        return arr;
+    }
 }
-
-console.log(convertToInteger("10011"));
+console.log(countdown(10));
