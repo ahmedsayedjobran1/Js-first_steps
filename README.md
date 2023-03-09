@@ -6,3 +6,4 @@
 |Morning|DOM&datatypes|Function&events|fetching data|
 |afternoon|arrays&objects|branches&loops|real world Js|
 |project|tic tac toe|quiz game|doggs|
+|project|tic tac toe|quiz game|doggs|
