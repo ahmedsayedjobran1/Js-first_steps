@@ -1,7 +1,3 @@
-function randomRange(myMin, myMax) {
-    // Only change code below this line
-    return Math.floor(Math.random() * (myMax - myMin + 1) + myMin);
-    // Only change code above this line
-}
+const a = parseInt("00007");
 
-console.log(randomRange(10, 15));
+console.log(a);
