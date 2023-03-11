@@ -1,2 +1,4 @@
-let test = "please make sure if i have a negative value";
-console.log(test.includes("please"));
+let NA = "I love u Ahmed From NADA";
+let c = NA.indexOf("NADA");
+let U = NA.substring(20);
+console.log(U);
