@@ -5,3 +5,9 @@ console.log(one);  // first task
 
 let two = document.getElementById("p1-symbol").textContent;
 console.log(two);
+// second task
+let three = document.querySelectorAll(".square").length;
+console.log(three);
+//  third task
+let four = document.querySelector("h2").textContent;
+console.log(four);
