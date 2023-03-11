@@ -9,5 +9,5 @@ console.log(two);
 let three = document.querySelectorAll(".square").length;
 console.log(three);
 //  third task
-let four = document.querySelector("h2").textContent;
+let four = document.querySelector("h1:nth-of-type(1)").textContent;
 console.log(four);
