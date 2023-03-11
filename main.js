@@ -1,9 +1,6 @@
-//  All of these are strings
+let x = "AhmedA";
 
-/*
-- "Hello"
--"I like single-quotes"
--`I ❤️ backticks`
--'867-5309'
 
-*/ 
+if (x[0] === x[x.length - 1]) {
+    console.log("opps a new chance");
+}
