@@ -1,2 +1,2 @@
-let kk = "Aloha";
-console.log(kk.indexOf("l"));
+let test = "please make sure if i have a negative value";
+console.log(test.includes("please"));
