@@ -1,7 +1,3 @@
-let Ahmed = "Ahmed sayed";
-let CCC = [];  // this what we will access  
-for (let key of Ahmed) {
-    CCC.push(key)
-}
+let syn = ["plethora", "array", "cornucopia"];
 
-console.log(CCC);  // thank you OPen.Ai
+console.log(syn[1].indexOf("cornucopia"));  // then it's not contain an  cornucopia
