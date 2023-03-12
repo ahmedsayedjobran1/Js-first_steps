@@ -1,5 +1,5 @@
-let scrup = "i  love you *myself";
-busta = scrup;
-scrup = "i hate you"
-
-console.log(busta);
+//
+let ten = 6 + 4;
+ myDecrale = "new value";
+// let board = document.getElementById("board");
+console.log(myDecrale);
