@@ -1,4 +1,6 @@
-let syn = ["plethora", "array", "cornucopia"];
-
-console.log(syn[1].indexOf("cornucopia"));  // then it's not contain an  cornucopia
-console.log(syn[3]);  // it's going to give me an undefiend valueg
+let Name = "Alan";
+let CC = [];
+for (let k of Name) {
+    CC.push(k)
+}
+console.log(CC);
