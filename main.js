@@ -1,4 +1,4 @@
-let one = ["one", "two", "three"];
-one.pop();
-one.push("Ahmed is here");
-console.log(one);
+//  shift :removed the first element
+//  unshift  add the first elemt
+//  pop remove thwe last element
+//  push : add to the last element
