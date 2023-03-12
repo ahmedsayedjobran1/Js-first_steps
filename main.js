@@ -1,6 +1,4 @@
-let Name = "Alan";
-let CC = [];
-for (let k of Name) {
-    CC.push(k)
-}
-console.log(CC);
+let one = ["one", "two", "three"];
+let Ex = one.pop();
+console.log(Ex);  // this is going to print out three
+console.log(one);// this is't return three
