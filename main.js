@@ -1,7 +1,7 @@
 let Ahmed = "Ahmed sayed";
-let CCC = [];
+let CCC = [];  // this what we will access  
 for (let key of Ahmed) {
     CCC.push(key)
 }
 
-console.log(CCC.length);  // thank you OPen.Ai
+console.log(CCC);  // thank you OPen.Ai
