@@ -1,2 +1,4 @@
-let bankruptcy;
-console.log(typeof bankruptcy);
+var Ahmed = "Ahmed";
+Ahmed = "SARA";
+console.log(Ahmed
+    );
