@@ -1,3 +1,3 @@
-let NA = "I love u Ahmed From NADA";
-
-console.log(NA.substring(NA.indexOf("NADA")).toLowerCase() + " Here is the magic".toUpperCase());
+for (let i = 1; i <= 24; i++) {
+    document.write(`${i + "<br></br>"}`)
+}
