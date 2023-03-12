@@ -1,4 +1,5 @@
-var Ahmed = "Ahmed";
-Ahmed = "SARA";
-console.log(Ahmed
-    );
+let scrup = "i  love you *myself";
+busta = scrup;
+scrup = "i hate you"
+
+console.log(busta);
