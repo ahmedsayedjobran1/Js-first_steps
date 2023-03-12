@@ -1,7 +1,3 @@
-let num1 = [1, 2, 3];
-num1.push(4);
-console.log(num1);  // what it is going to do here :[1,2,3,4]
-
-let num2 = [1, 2, 3];
-console.log(num2.concat([4]));  // it's going to give me :[1,2,3,4]
-let c = num2.concat[4];
+const A = [1, 2, 3, 4, 5];
+A.push(6);
+console.log(A);  // when we use an immutable varaible it will chage when we sue a muttable value like push
