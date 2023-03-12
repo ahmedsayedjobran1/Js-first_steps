@@ -1,15 +1,7 @@
-// fucntions
-function add(x, y) {     /// this is a function
-    return x + y;
-}
-let biggest;  // this is a statement
-if (5 > 4) {
-    biggest = 5;
-}
-else {
-    biggest = 4;
+let Ahmed = "Ahmed sayed";
+let CCC = [];
+for (let key of Ahmed) {
+    CCC.push(key)
 }
 
-for (let key of "Ahmed") {  // this is a for loop
-    console.log(key)
-}
+console.log(CCC.length);  // thank you OPen.Ai
