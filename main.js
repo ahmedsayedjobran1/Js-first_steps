@@ -1,5 +1,4 @@
 let one = ["one", "two", "three"];
-one.push("three2");
-console.log(one.pop());
-console.log(one
-);
+one.pop();
+one.push("Ahmed is here");
+console.log(one);
