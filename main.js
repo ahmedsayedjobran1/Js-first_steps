@@ -1,9 +1,9 @@
-const me = {
-    name: "Ahmed",
-    age: 21,
-    gender: "female"
+const dog = {
+    name: "EIN",
+    breed: "Corgi",
+    speak: function () {
+        console.log("woof woof");
+    }
 }
-Object.freeze(me); // this is going to change it to none thing 
-me.age = 35;  // this is not going to change any thing you will change 
-me.name = "hani";  // this is not going to change any thing you will change 
-console.log(me);
+
+dog.speak();
