@@ -4,13 +4,17 @@ let explanation = document.getElementById("explanation");
 console.log(statement.textContent);
 
 //  let's make it 
-let fact = {
-    "statement": "'1' + '1' ==='2'",
-    "answer": "false",
-    "explanation": "the plus operator does not work by this way, so '1'+ '1' ==='11'"
+let fact1 = {
+    "statement": "typeof(array) === array?",
+    "answer": true,
+    "explanation": "no arrays type isn't array"
 }
 
-let o = {
-    prop: "test it please"
+statement.textContent = fact1["statement"];
+
+if (fact1.answer !== true) {
+    explanation.textContent = fact1.explanation
 }
-console.log();
+else {
+    explanation.textContent = "IDK google it "
+}
