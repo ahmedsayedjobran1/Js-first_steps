@@ -12,9 +12,3 @@ let fact1 = {
 
 statement.textContent = fact1["statement"];
 
-if (fact1.answer !== true) {
-    explanation.textContent = fact1.explanation
-}
-else {
-    explanation.textContent = "IDK google it "
-}
