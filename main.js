@@ -1,8 +1,10 @@
-let Ahmed = {};
-Ahmed.age = 21;
-Ahmed.gender = "male";
-Ahmed.gf = "none";
-console.log(Ahmed);
+const Ahmed = {
+    name: "Ahmed jobran",
+    age: 21,
+    interists: ["video games", "reading books", "chess"],
+    gender: "male",
+    favFilms: "john  wick",
 
-Ahmed.age = 22;
-console.log(Ahmed);
+}
+
+console.log(Ahmed.interists[0][2]);
