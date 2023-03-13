@@ -9,4 +9,5 @@ const js = {
     creator: "Brenden Eich "
 }
 
-console.log(js.name);
+console.log(js.abbrevation);// this  is going to give us the apprevation
+console.log(js.isAwesome)
