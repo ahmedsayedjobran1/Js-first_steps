@@ -1,9 +1,6 @@
-const dog = {
-    name: "EIN",
-    breed: "Corgi",
-    speak: function () {
-        console.log("woof woof");
-    }
+let Ahmed = { name: "Ahmed" };
+Ahmed.speak = function () {
+    console.log("hi my name is", this.name)
 }
 
-dog.speak();
+Ahmed.speak(); // this refers to the Ahmed object
